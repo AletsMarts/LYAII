@@ -26,6 +26,7 @@
  *:                                 ocurrio el error.
  *: 08/Sep/2015 FGil                -Se dejo lista para iniciar un nuevo analizador
  *:                                 sintactico.
+ *: 26/Sep/2024			    -Se agregaron los procedures correspondientes
  *:-----------------------------------------------------------------------------
  */
 package compilador;
