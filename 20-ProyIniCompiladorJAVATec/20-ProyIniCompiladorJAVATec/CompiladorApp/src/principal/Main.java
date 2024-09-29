@@ -4,10 +4,9 @@ import gui.CompiladorFrame;
 import compilador.Compilador;
 
 public class Main {
-    
+
     //--------------------------------------------------------------------------
-    
-    public static void main ( String [] args ) {
+    public static void main(String[] args) {
         /* Set the Windows look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -35,23 +34,19 @@ public class Main {
         java.awt.EventQueue.invokeLater(new Runnable() {
             @Override
             public void run() {
-                CompiladorFrame cmpFrame = new CompiladorFrame ( new Compilador () );
-                cmpFrame.setColaboradoresAcercaDe ( colaboradores, 2 );
-                cmpFrame.setVisible ( true );
+                CompiladorFrame cmpFrame = new CompiladorFrame(new Compilador());
+                cmpFrame.setColaboradoresAcercaDe(colaboradores, 2);
+                cmpFrame.setVisible(true);
             }
         });
-        
+
     }
 
     //--------------------------------------------------------------------------
     // Nombres a desplegar en el "Acerca de" como colaboradores .
-    
-    public static final String [] colaboradores = { 
+    public static final String[] colaboradores = {
         "Lenguajes y Automatas II :: Grupo 8-9 am :: Semestre Ago-Dic/2024",
-        "Alejandro Martínez Escobedo (19130939)", 
-        "Jan Zmuda       (02131201)",
-        "Karel Sciekanowsky",
-        "Illie Dumistrescu" 
-    };  
-   
+        "Luis Alejandro Vazquez Saucedo (19130580)",
+        "José Alejandro Martínez Escobedo (19130939)"};
+
 }
