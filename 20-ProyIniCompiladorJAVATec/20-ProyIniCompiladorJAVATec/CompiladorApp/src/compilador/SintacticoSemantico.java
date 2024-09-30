@@ -38,7 +38,7 @@ public class SintacticoSemantico {
     private Compilador cmp;
     private boolean analizarSemantica = false;
     private String preAnalisis;
-    //variables para resololver el problema de la gramatica
+    //variables para resolver el problema de la gramatica
     private boolean retroceso; //bandera que indica si se realizo un retroceso en el buffer de entrada
     private int ptr; //apuntador auxiliar a una localidad del buffer.
 
